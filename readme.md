@@ -84,10 +84,10 @@ Feel free to fork this repository, open issues, and submit pull requests. Contri
 
 For any queries, reach out to
 
-<a style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none;" href="https://www.facebook.com/mr.orko.10">
+<a target="_blank" style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none;" href="https://www.facebook.com/mr.orko.10">
     <img style="width: 16px; height: 16px; vertical-align: middle;" src="https://cdn.freebiesupply.com/logos/large/2x/facebook-logo-2019.png"> হিমেল
 </a>
 <br />
-<a style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none;" href="https://www.facebook.com/Engineer.MD.Shariful.Islam.Tutul">
+<a target="_blank" style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none;" href="https://www.facebook.com/Engineer.MD.Shariful.Islam.Tutul">
     <img style="width: 16px; height: 16px; vertical-align: middle;" src="https://cdn.freebiesupply.com/logos/large/2x/facebook-logo-2019.png"> MD Shariful Islam Tutul
 </a>
