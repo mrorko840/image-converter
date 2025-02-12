@@ -1,0 +1,6 @@
+PyQt6==6.8.1
+pillow==11.1.0
+requests==2.32.3
+python-dotenv==1.0.1
+cloudinary==1.42.2
+pyinstaller==6.12.0
