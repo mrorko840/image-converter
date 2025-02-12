@@ -19,6 +19,7 @@ cloudinary.config(
     api_key="144885736697597",
     api_secret="eoprw93aSKaEK0MFMRmGDiinkTo"
 )
+
 # cloudinary.config(
 #     cloud_name=os.getenv("CLOUDINARY_CLOUD_NAME"),
 #     api_key=os.getenv("CLOUDINARY_API_KEY"),
