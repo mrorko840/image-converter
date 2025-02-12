@@ -3,6 +3,7 @@ import os
 import requests
 import cloudinary
 import cloudinary.uploader
+from PyQt6.QtGui import QIcon
 from PyQt6.QtWidgets import (
     QApplication, QWidget, QLabel, QPushButton, QVBoxLayout, QFileDialog,
     QLineEdit, QComboBox, QMessageBox, QInputDialog
@@ -35,6 +36,8 @@ class ImageConverterApp(QWidget):
 
     def initUI(self):
         self.setWindowTitle("Image Converter")
+        icon_path = os.path.join(os.path.dirname(__file__), "icon.ico")
+        self.setWindowIcon(QIcon(icon_path))
         self.setGeometry(100, 100, 500, 500)
 
         layout = QVBoxLayout()

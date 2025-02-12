@@ -63,7 +63,7 @@ pyinstaller==6.12.0
 Make .exe file using this command(**_windows_**):
 
 ```
-pyinstaller --onefile --noconsole --icon=icon.ico app.py
+pyinstaller --onefile --noconsole --icon=icon.ico --add-data "icon.ico;." app.py
 ```
 
 Make .app file using this command(**_mac_**):
