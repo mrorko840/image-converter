@@ -40,7 +40,7 @@ class ImageConverterApp(QWidget):
         self.setWindowTitle("Image Converter")
         icon_path = os.path.join(os.path.dirname(__file__), "icon.ico")
         self.setWindowIcon(QIcon(icon_path))
-        self.setGeometry(100, 100, 500, 500)
+        self.setGeometry(100, 100, 400, 500)
 
         self.setStyleSheet(
             """
