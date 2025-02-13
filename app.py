@@ -3,7 +3,8 @@ import os
 import requests
 import cloudinary
 import cloudinary.uploader
-from PyQt6.QtGui import QIcon
+from PyQt6.QtGui import QIcon, QFont
+from PyQt6.QtCore import Qt
 from PyQt6.QtWidgets import (
     QApplication, QWidget, QLabel, QPushButton, QVBoxLayout, QFileDialog,
     QLineEdit, QComboBox, QMessageBox, QInputDialog
@@ -41,9 +42,44 @@ class ImageConverterApp(QWidget):
         self.setWindowIcon(QIcon(icon_path))
         self.setGeometry(100, 100, 500, 500)
 
+        self.setStyleSheet(
+            """
+            QWidget {
+                background-color: #2E3440;
+                color: #D8DEE9;
+                font-family: Arial;
+            }
+            QLabel {
+                font-size: 16px;
+            }
+            QPushButton {
+                background-color: #5E81AC;
+                color: white;
+                font-size: 14px;
+                border-radius: 8px;
+                padding: 8px;
+            }
+            QPushButton:hover {
+                background-color: #81A1C1;
+            }
+            QLineEdit, QComboBox {
+                background-color: #4C566A;
+                color: white;
+                border-radius: 5px;
+                padding: 5px;
+            }
+            """
+        )
+
         layout = QVBoxLayout()
 
         self.file_label = QLabel("Select an image file or enter a URL", self)
+        font = QFont()
+        font.setBold(True)  # টেক্সটকে Bold করা
+        font.setPointSize(12)  # ফন্টের সাইজ সেট করা (প্রয়োজনে পরিবর্তন করতে পারো)
+        self.file_label.setFont(font)
+        self.file_label.setStyleSheet("color: #5E81AC;")  # তুমি অন্য কালারও দিতে পারো
+        self.file_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         layout.addWidget(self.file_label)
 
         self.select_button = QPushButton("Browse", self)

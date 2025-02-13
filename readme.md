@@ -15,7 +15,7 @@ A powerful and user-friendly **Image Converter** application built with **PyQt6*
 
 ## 🖼️ Preview
 
-<img src="https://i.imgur.com/8lAgtR7.png" alt="App Screenshot" width="300px">
+<img src="https://i.imgur.com/kW8WuJM.png" alt="App Screenshot" width="330px">
 
 ## 🔧 Installation
 
